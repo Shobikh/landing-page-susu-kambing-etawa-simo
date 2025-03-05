@@ -60,7 +60,7 @@ export default function Home() {
               </div>
               <div className="mx-auto lg:order-last">
                 <Image
-                  src="/product-image.jpg"
+                  src="/product-image.png"
                   alt="Etawa Goat Milk"
                   width={500}
                   height={400}
