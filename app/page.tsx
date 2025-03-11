@@ -10,21 +10,21 @@ export default function Home() {
       <header className="sticky top-0 z-40 border-b bg-background">
         <div className="container flex h-16 items-center justify-between py-4">
           <div className="flex items-center gap-2">
-            <Image src="/logo.png" alt="Susu Kambing Etawa Logo" width={40} height={40} className="rounded-full" />
-            <span className="text-xl font-bold">Susu Kambing Etawa</span>
+            <Image src="/logo-product.png" alt="Susu Kambing Etawa Logo" width={40} height={40} className="rounded-full" />
+            <span className="text-xl font-bold">EtawaFresh</span>
           </div>
           <nav className="hidden md:flex gap-6">
             <Link href="#about" className="text-sm font-medium hover:underline underline-offset-4">
-              About
+              Tentang
             </Link>
             <Link href="#benefits" className="text-sm font-medium hover:underline underline-offset-4">
-              Benefits
+              Khasiat
             </Link>
             <Link href="#comparison" className="text-sm font-medium hover:underline underline-offset-4">
-              Why Goat Milk?
+              Kenapa Susu Kambing?
             </Link>
             <Link href="#contact" className="text-sm font-medium hover:underline underline-offset-4">
-              Contact
+              Hubungi Kami
             </Link>
           </nav>
           <Button variant="outline" size="icon" className="md:hidden">
@@ -40,7 +40,7 @@ export default function Home() {
             <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
               <div className="space-y-4">
                 <div className="inline-block rounded-lg bg-green-100 px-3 py-1 text-sm text-green-800">
-                  100% Natural & Organic
+                  100% Alami
                 </div>
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
                   Discover the Goodness of Premium Etawa Goat Milk
@@ -51,10 +51,10 @@ export default function Home() {
                 </p>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
                   <Button asChild size="lg" className="bg-green-600 hover:bg-green-700">
-                    <Link href="#contact">Order Now</Link>
+                    <Link href="#contact">Pesan Sekarang</Link>
                   </Button>
                   <Button asChild variant="outline" size="lg">
-                    <Link href="#benefits">Learn More</Link>
+                    <Link href="#benefits">Pelajari</Link>
                   </Button>
                 </div>
               </div>
@@ -78,7 +78,7 @@ export default function Home() {
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-                  About Our Etawa Goat Milk
+                  Tentang Susu Kambing Etawa Kami
                 </h2>
                 <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
                   Our premium Etawa Goat Milk comes from the renowned Etawa breed, known for producing the highest
@@ -88,7 +88,7 @@ export default function Home() {
             </div>
             <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12">
               <Image
-                src="/product-image.jpg"
+                src="/goat-image.jpg"
                 alt="Etawa Goats"
                 width={500}
                 height={400}
@@ -416,7 +416,7 @@ export default function Home() {
                 <div className="space-y-2">
                   <div className="flex items-center gap-2">
                     <Phone className="h-5 w-5 text-green-600" />
-                    <span>+62 812 3456 7890</span>
+                    <span>+62 813 3536 4110</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <Mail className="h-5 w-5 text-green-600" />
@@ -424,11 +424,11 @@ export default function Home() {
                   </div>
                   <div className="flex items-center gap-2">
                     <MapPin className="h-5 w-5 text-green-600" />
-                    <span>Jl. Susu Sehat No. 123, Jakarta, Indonesia</span>
+                    <span>Jl. Singo Putih, Sancen, Simo, Kec. Slahung, Kab. Ponorogo, Jawa Timur</span>
                   </div>
                 </div>
                 <div className="pt-4">
-                  <h3 className="text-xl font-bold mb-2">Follow Us</h3>
+                  <h3 className="text-xl font-bold mb-2">Ikuti Kami</h3>
                   <div className="flex gap-4">
                     <Link href="#" className="text-green-600 hover:text-green-700">
                       <Instagram className="h-6 w-6" />
@@ -445,36 +445,32 @@ export default function Home() {
                   <ul className="space-y-2">
                     <li className="flex items-center gap-2">
                       <CheckCircle className="h-5 w-5 text-green-600" />
-                      <span>Fresh Etawa Goat Milk (250ml, 500ml, 1L)</span>
+                      <span>Susu Kambing Etawa Segar (1L, 500Ml)</span>
                     </li>
                     <li className="flex items-center gap-2">
                       <CheckCircle className="h-5 w-5 text-green-600" />
-                      <span>Powdered Etawa Goat Milk (200g, 500g)</span>
+                      <span>Susu Kambing Etawa Bubuk(200g, 500g)</span>
                     </li>
                     <li className="flex items-center gap-2">
                       <CheckCircle className="h-5 w-5 text-green-600" />
-                      <span>Etawa Goat Milk Yogurt (150g, 500g)</span>
-                    </li>
-                    <li className="flex items-center gap-2">
-                      <CheckCircle className="h-5 w-5 text-green-600" />
-                      <span>Etawa Goat Milk Soap and Skincare</span>
+                      <span>Susu Kambing Saanen (1L, 500Ml)</span>
                     </li>
                   </ul>
                 </div>
               </div>
               <div className="flex flex-col items-center justify-center space-y-4">
                 <div className="text-center">
-                  <h3 className="text-2xl font-bold mb-4">Scan to Order</h3>
+                  <h3 className="text-2xl font-bold mb-4">Scan QR untuk Memesan</h3>
                   <div className="bg-white p-4 rounded-xl shadow-md inline-block">
                     <Image src="/qr-code.png" alt="QR Code for ordering" width={200} height={200} className="mx-auto" />
                   </div>
                   <p className="mt-4 text-muted-foreground">
-                    Scan this QR code with your phone camera to place an order directly through WhatsApp
+                    Scan QR Code dan anda akan langsung diarahkan ke WhatsApp
                   </p>
                 </div>
                 <div className="w-full max-w-md mt-6">
                   <Button className="w-full bg-green-600 hover:bg-green-700" size="lg">
-                    <Phone className="mr-2 h-4 w-4" /> Call to Order Now
+                    <Phone className="mr-2 h-4 w-4" /> Hubungi Kami untuk Memesan Sekarang
                   </Button>
                 </div>
               </div>
@@ -486,10 +482,10 @@ export default function Home() {
         <div className="container flex flex-col items-center justify-center gap-4 px-4 md:px-6 text-center">
           <div className="flex items-center gap-2">
             <Image src="/logo.png" alt="Susu Kambing Etawa Logo" width={40} height={40} className="rounded-full" />
-            <span className="text-xl font-bold">Susu Kambing Etawa</span>
+            <span className="text-xl font-bold">FreshEtawa</span>
           </div>
           <p className="text-sm text-muted-foreground">
-            &copy; {new Date().getFullYear()} Susu Kambing Etawa. All rights reserved.
+            &copy; {new Date().getFullYear()} FreshEtawa. All rights reserved.
           </p>
           <p className="text-xs text-muted-foreground max-w-md">
             Disclaimer: These statements have not been evaluated by food and drug authorities. This product is not
